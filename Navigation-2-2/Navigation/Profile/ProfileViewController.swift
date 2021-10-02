@@ -217,7 +217,7 @@ extension ProfileViewController: UITableViewDataSource, UITableViewDelegate {
                 images.append(UIImageView(image: UIImage(named: posts[i].image)))
             }
                 
-            photosController.images = images
+            photosController.imageViews = images
             
             navigationController?.pushViewController(photosController, animated: true)
         }
